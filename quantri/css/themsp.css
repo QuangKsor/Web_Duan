@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    width: 910px;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: left;
+}
+h2{
+    width: 900px;
+    text-align: left;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: rgb(58, 58, 58);
+    color: white;
+}
+table{
+    margin-left: 10px;
+    padding: 5px;
+}
+table input{
+    padding: 5px;
+    width: 300px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+table label{
+    color: rgb(214, 74, 109);
+    font-weight: bold;
+    font-size: 18px;
+}
+table input[type="radio"]{
+    width: 15px;
+}
+table input[type="submit"], input[type="reset"]{
+    width: 80px;
+    background-color: beige;
+    border-radius: 5px;
+    color: brown;
+    font-weight: bold;
+}
