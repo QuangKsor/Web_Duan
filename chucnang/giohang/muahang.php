@@ -113,11 +113,10 @@
             $message = "Xin chào $ten! Bạn đã đặt hàng thành công với số điện thoại là: $dt và địa chỉ nhận hàng là: $dia_chi!";
             $from = "quang@gmail.com";
             $headers = "From: $from ";
-            // if(mail($to, $subject, $message, $headers)) {
-            //     echo "Email đã được gửi thành công!";
-            // } else {
-            //     echo "Có lỗi xảy ra khi gửi email.";
-            // }
+            echo "<script>
+                    alert('$subject\\n\\n$message');
+                    window.location='index.php';
+                </script>";
         }
     ?>
     </div>
